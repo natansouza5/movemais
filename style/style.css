@@ -1,0 +1,155 @@
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: url(../img/jakub-pabis-riGNYNuo_5k-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+@media (max-width: 720px) {
+    #quemsomos, #comoajudar {
+        width: 85vw;
+    }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+.move {
+    color: #8ab7e2
+}
+.mais {
+    color: #fff;
+}
+.saibamais {
+    margin-top: 30%;
+    margin-bottom: 30%
+}
+.texto1 {
+    font-size: 40px;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+.texto2 {
+    font-size: 30px;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .7);
+}
+#quemsomos {
+    margin-top: 50%;
+    background-image: linear-gradient(#4e89c0, #298ce9);
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 30px;
+    margin-top: 40px;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+#comoajudar {
+    padding-top: 50px;
+    margin: 50% 0;
+    background-image: linear-gradient(#298ce9, #115ba0);
+    font-size: 20px;
+    border-radius: 40px;
+    padding: 20px;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+    margin-top: 50%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(#181f34, #26304e);
+    border-radius: 40px;
+}
